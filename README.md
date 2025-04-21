@@ -1,5 +1,7 @@
 ## Playwright MCP
 
+[![smithery badge](https://smithery.ai/badge/@SleepyRabbit/playwright-mcp)](https://smithery.ai/server/@SleepyRabbit/playwright-mcp)
+
 A Model Context Protocol (MCP) server that provides browser automation capabilities using [Playwright](https://playwright.dev). This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.
 
 ### Key Features
@@ -58,6 +60,14 @@ code-insiders --add-mcp '{"name":"playwright","command":"npx","args":["@playwrig
 ```
 
 After installation, the Playwright MCP server will be available for use with your GitHub Copilot agent in VS Code.
+
+### Installing via Smithery
+
+To install playwright-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@SleepyRabbit/playwright-mcp):
+
+```bash
+npx -y @smithery/cli install @SleepyRabbit/playwright-mcp --client claude
+```
 
 ### CLI Options
 
